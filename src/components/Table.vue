@@ -30,7 +30,7 @@
     />
     <span class="sort" @click="sort(2)">年龄升序排序</span>
     <span class="sort" @click="sort(1)">年龄降序排序</span>
-    <span class="sort" @click="sort(0)">年龄原始排序</span>
+    <!-- <span class="sort" @click="sort(0)">年龄原始排序</span> -->
     <!-- <span class="sort" @click="prefilter">过滤</span> -->
     <div class="page-btn">
       <button class="button" :class="{ isNone: !isNone }">
